@@ -1,0 +1,3 @@
+# Clearfix
+
+Minimal `clearfix` helper.
