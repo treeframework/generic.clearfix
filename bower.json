@@ -1,14 +1,14 @@
 {
   "name": "tree-clearfix",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/treeframework/generic.clearfix.git",
   "authors": [
     "Ilia Kolev <contact@iliakolev.com>"
   ],
-  "description": "Clearfix hack - treeframework",
+  "description": "Clearfix hack - TreeFramework",
   "main": "_clearfix.scss",
   "keywords": [
-    "treeframework",
+    "TreeFramework",
     "css"
   ],
   "license": "MIT"
