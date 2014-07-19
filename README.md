@@ -1,6 +1,12 @@
 # Clearfix
 
-The `clearfix` helper is clone of [inuitcss] (https://github.com/inuitcss) -
-[generic.clearfix] (https://github.com/inuitcss/generic.clearfix).
+The `clearfix` module is a minimal clearfix helper class.
 
-It is develop and maintained by [Harry Roberts] (https://twitter.com/csswizardry).
+Install using Bower:
+
+    $ bower install --save tree-clearfix
+
+## Credits
+
+* **[inuitcss](https://github.com/inuitcss)** Powerful, Sass-based, OOCSS
+framework designed with scalability and performance in mind.
