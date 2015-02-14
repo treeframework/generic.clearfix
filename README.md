@@ -4,7 +4,15 @@ The `clearfix` module is a minimal clearfix helper class.
 
 Install using Bower:
 
-    $ bower install --save tree-clearfix
+```sh
+$ bower install tree-clearfix --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-clearfix --save
+```
 
 ## Credits
 
