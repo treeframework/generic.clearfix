@@ -7,8 +7,16 @@
 // Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
 // Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
 // over and over in your markup.
-.clearfix,
-%clearfix {
+
+// Predefine the variables below in order to alter and enable specific features.
+$tree-clearfix-namespace:    $tree-namespace !default;
+
+
+
+
+
+.#{$tree-clearfix-namespace}clearfix,
+%#{$tree-clearfix-namespace}clearfix {
 
     &:after {
         clear: both;
