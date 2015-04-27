@@ -1,22 +1,39 @@
-// *************************************
+// =============================================================================
 //
-//   #CLEARFIX
+// Name:          Clearfix
 //
-// *************************************
+// Description:   Micro clearfix. Extend the clearfix class with Sass to avoid
+//                the `u-clearfix` class appearing over and over in your markup.
+//
+// Block:         `u-clearfix`
+//
+// Markup:
+//
+// <div class="u-clearfix">...</div>
+//
+// =============================================================================
 
-// Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
-// Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
-// over and over in your markup.
+
+
+
+
+// Variables
+// =============================================================================
 
 // Predefine the variables below in order to alter and enable specific features.
+
 $tree-clearfix-namespace:    $tree-namespace !default;
 
 
 
 
 
-.#{$tree-clearfix-namespace}clearfix,
-%#{$tree-clearfix-namespace}clearfix {
+// =============================================================================
+// Block: `u-clearfix`
+// =============================================================================
+
+.#{$tree-clearfix-namespace}u-clearfix,
+%#{$tree-clearfix-namespace}u-clearfix {
 
     &:after {
         clear: both;
