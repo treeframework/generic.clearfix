@@ -4,18 +4,17 @@ The `clearfix` module is a minimal clearfix helper class.
 
 ## Dependencies
 
-The Clearfix module depends on one other module:
+The `clearfix` module depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
-If you install the Clearfix module using Bower or npm, you will get these
+If you install the `clearfix` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
 install and @import these dependencies in the relevant way.
 
 ## Installation
 
-You can install Clearfix module via Bower, npm, Git Submodule, or copy and
-paste.
+You can install `clearfix` module via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -35,16 +34,6 @@ Once installed, `@import` into your project in its Trump layer:
 $ npm install tree-clearfix --save
 ```
 
-### Install as a Git Submodule:
-
-```sh
-$ git submodule add git@github.com:treeframework/trump.clearfix.git
-```
-
-```scss
-@import "trump.clearfix/trump.clearfix";
-```
-
 ### Install via file download
 
 The least recommended option for installation is to simply download
@@ -53,12 +42,10 @@ its Trump layer.
 
 ## Usage
 
-Basic usage of the Clearfix module uses the required classes:
+Basic usage of the `clearfix` module uses the required classes:
 
 ```html
-<div class="clearfix">
-    Easily clear floats by adding clearfix to the parent element.
-</div>
+<div class="u-clearfix">...</div>
 ```
 
 ## Credits
